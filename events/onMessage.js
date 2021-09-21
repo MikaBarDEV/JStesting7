@@ -3,7 +3,7 @@ client.on("messageCreate", message => {
 
 console.log("message has been send!")
 
-const prefix = /^(js!|!|!!)/
+const prefix = /^(js!|!|-|>|\.)/
 
 if(prefix.test(message.content) == true && message.author.bot != true){
 
